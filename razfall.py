@@ -32,7 +32,15 @@ places = {
             "Ski instructor",
             "Hot chocolate vendor",
             "Pro freerider"
-            ]
+            ],
+        "Cluedo": [
+            "Miss Scarlett",
+            "Professor Plum",
+            "Mrs. Peacock",
+            "Mr. Green",
+            "Colonel Mustard",
+            "Mrs. White"
+            ],
         }
 
 no_of_players = 5
