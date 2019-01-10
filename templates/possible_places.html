@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}possible places{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>razfall</h1>
+
+  <h3>possible places:</h3>
+
+  {% for place in places %}
+    <p>{{ place }}</p>
+  {% endfor %}
+
+{% endblock %}
