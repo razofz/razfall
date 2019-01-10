@@ -2,7 +2,7 @@ from random import randint
 import random
 import json
 
-with open('places.txt', 'r') as places_file:
+with open('places.json', 'r') as places_file:
     places = json.loads(places_file.read())
 
 # print(places)
