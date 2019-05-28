@@ -4,10 +4,9 @@ import json
 from flask import Flask, render_template, session
 app = Flask(__name__)
 import pudb
+import os
 
-# we've got the best security in the world, tremendous
-# will _absolutely_ remove this later.... TODO
-app.secret_key = 'password123'
+app.secret_key = os.urandom(16)
 
 @app.route("/")
 def start_page():
