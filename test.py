@@ -10,4 +10,4 @@ def test_simple_function():
     assert simple_function(True) == True
 
 def test_simple_wrong_function():
-    assert simple_wrong_function(True) == True
+    assert simple_wrong_function(True) == False
