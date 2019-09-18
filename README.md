@@ -1,5 +1,7 @@
 # RAZFALL
 
+[![Build Status](https://travis-ci.org/razofz/razfall.svg?branch=master)](https://travis-ci.org/razofz/razfall)
+
 For when you want more (and possibly _funkier_) places.
 
 This was mostly coded in one night, after a board game night in Munich playing
